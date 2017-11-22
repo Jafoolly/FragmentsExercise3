@@ -23,7 +23,7 @@ public class TodoFragment extends Fragment {
     private CheckBox mCheckBoxIsComplete;
 
     @Override
-    public void onCreate(Bundle savedInstanceState){
+    public void onCreate(Bundle savedInstanceState){ 
         super.onCreate(savedInstanceState);
         mTodo = new Todo();
         // TODO: refactor
